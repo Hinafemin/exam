@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+.all{
+    padding: 100px 150px;   
+}
+.tab{
+    width: 100%;
+}
+.tab th{
+    background-color: rgb(99, 137, 169)
+}
+#rw{
+    background-color: rgb(61, 99, 227);
+}
+.tab tbody tr{
+    background-color: rgb(159, 181, 201);
+}
+.tab tbody tr:hover{
+    background-color: rgb(54, 140, 220);
+}
+@media (max-width:600px){
+    h1{
+        visibility: hidden;
+    }
+    .tab{
+        overflow-x: auto;
+    }
+}
